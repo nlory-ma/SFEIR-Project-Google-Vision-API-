@@ -10,12 +10,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-xs-12" id="webcam">
-					<img src="public/img/demo-image.jpg" />
+					<video id="video" width="640" height="480" autoplay></video>
 				</div>
 				<div class="col-md-6 col-xs-12" id="request-api">
 					<form class="form-inline" action="server/api.go">
-					  <button type="button" class="btn btn-primary">Take snapshot</button>
+					  <button type="button" class="btn btn-primary" id="snap">Take snapshot</button>
 					</form>
+					<canvas id="canvas" width="640" height="480"></canvas>
 				</div>
 			</div>
 		</div>
