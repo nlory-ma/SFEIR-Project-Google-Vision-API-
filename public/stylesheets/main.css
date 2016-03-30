@@ -1,3 +1,8 @@
+.container {
+	margin-top: 4%;
+}
+
 #webcam img {
 	max-width: 100%;
+	border: 1px solid #333;
 }
