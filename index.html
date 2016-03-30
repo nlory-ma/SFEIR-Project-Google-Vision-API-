@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="public/stylesheets/main.css" />
+		<title>SFEIR Project (Google Vision APi)</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12" id="webcam">
+					<img src="public/img/demo-image.jpg" />
+				</div>
+				<div class="col-md-6 col-xs-12" id="request-api">
+					<form class="form-inline" action="server/api.go">
+					  <button type="button" class="btn btn-primary">Take snapshot</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="public/js/myscript.js"></script>
+	</body>
+</html>
