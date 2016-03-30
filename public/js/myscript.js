@@ -29,6 +29,11 @@
 				video.play();
 			}, errBack);
 		}
+
+		// Trigger photo take
+		document.getElementById("snap").addEventListener("click", function() {
+			context.drawImage(video, 0, 0, 480, 320);
+		});
 	}, false);
 
 	console.log('App sucessfully loaded !');
